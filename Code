@@ -1,0 +1,3 @@
+results_item_info_all\
+    .write.format('delta').mode('overwrite').option('overwriteSchema', 'true')\
+    .saveAsTable(dbname + '.Summary_RUM_analysis_MES_MOO_Units_' + budget + 'M_budget_zone' + zone_id)
